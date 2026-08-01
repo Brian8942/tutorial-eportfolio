@@ -224,6 +224,10 @@ nav {
   padding-top: 40px;
 }
 
+.project {
+  margin-bottom: 135px;
+}
+
 .project__wrapper {
   display: flex;
   box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
@@ -261,17 +265,18 @@ nav {
 
 .project:hover .project__description {
   opacity: 1;
+  transform: translateY(-50%);
 }
 
 .project__description {
   position: absolute;
   top: 50%;
   left: 90px;
-  transform: translateY(-50%);
+  transform: translateY(100%);
   max-width: 550px;
   z-index: 3;
   opacity: 0;
-  transition: opacity 300ms;
+  transition: transform 450ms, opacity 300ms;
 }
 
 .project__description--title {
