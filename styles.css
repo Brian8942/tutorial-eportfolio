@@ -319,7 +319,11 @@ footer {
 }
 
 .footer__social--list {
-  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 28px;
 }
 
 .footer__row {
