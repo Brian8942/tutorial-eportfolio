@@ -33,7 +33,6 @@ p {
 
 a {
   text-decoration: none;
-  position: relative;
 }
 
 .link__hover-effect:after {
