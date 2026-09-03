@@ -388,3 +388,10 @@ footer {
   transform: translateX(60px);
   opacity: 1;
 }
+
+/* Small Phones, Tablets, Large Smartphones */
+@media (max-width: 768px) {
+  nav {
+    height: 68px;
+  }
+}
