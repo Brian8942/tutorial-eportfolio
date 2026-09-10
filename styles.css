@@ -395,12 +395,20 @@ footer {
   nav {
     height: 68px;
   }
-}
-
-h1 {
+  
+  h1 {
   font-size: 28px;
 }
 
 .about-me__info--para {
-  font-size:18px;
+  font-size: 18px;
 }
+
+.language {
+  width: calc(100% / 3);
+}
+
+.language__list {
+  justify-content: center;
+}
+  }
